@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "demoTest": "testcafe chrome Wikipedia/test.js"
+  }
+}
