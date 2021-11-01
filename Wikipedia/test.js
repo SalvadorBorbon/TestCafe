@@ -9,7 +9,7 @@ test('Wikipedia Test', async t => {
     const imgField = Selector('.thumbinner').child('a');
     const imgPos = Selector(imgField).child('img');
     const RandomPageLink = Selector('#n-randompage');
-    const container = Selector('#External_links');
+    const container = Selector('#References');
     const back = ClientFunction(() => window.history.back());
     const ul = Selector('.vector-menu-content-list');
     const liQuantity = Selector('.interlanguage-link-target > span').innerText;
